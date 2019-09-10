@@ -1,6 +1,8 @@
 # 2020DemFollowerGraph
 This repository contains Twitter follower growth graphs for 2020 Democratic Party Candidates.
 
+[Link to blog](https://ws-dl.blogspot.com/2019/09/2019-09-10-twitter-follower-growth-for.html)
+
 ## List of Graphs for each Twitter handle
 File Name| Description
 ---------|------------
