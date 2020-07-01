@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tweet Id vs Timestamp</title>
+		<meta name="description" content="2020 Democratic Candidates Follower Graph">
+		<meta name="keywords" content="Twitter, Web Archiving, Tweet Ids">
+		<meta name="author" content="Mohammed Nauman Siddique">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script type = "text/javascript" src = "https://d3js.org/d3.v4.min.js"></script>
+	</head>
+
+	<body>
+		<h1>2020 Democratic Candidates Follower Graph</h1>
+		<div id="floatingaxis"></div>
+			<div id="candidatewindow" class="modal">
+				<div id="candidateheader" class="header">
+					<span class="buttons">
+						<span id="candidatemin">_</span>
+						<span id="candidatemax">[ ]</span>
+						<span id="candidateclose">X</span>
+					</span>
+				</div>
+				<div id= "candidatecontent" class="content">>
+					Here's modal pop-up content
+				</div>
+			</div>
+
+		<div id="questionairewindow" class="modal">
+			<div class="header">
+				<span class="buttons">
+					<span id="questionairemin">_</span>
+					<span id="questionairemax">[ ]</span>
+					<span id="questionaireclose">X</span>
+				</span>
+			</div>
+			<div id= "questionairecontent" class="content">
+			</div>
+		</div>
+		<div id="followergraph"></div>
+        <script type = "text/javascript" src = "followergraph.js"></script>
+   </body>
+</html>

@@ -1,0 +1,125 @@
+h1 {
+	text-align: center;
+}
+
+.fakelink{
+  text-decoration-line: underline;
+}
+
+#floatingaxis {
+  position:sticky;
+  top:0%;
+  z-index:1;
+}
+
+#candidatewindow {
+  position: fixed;
+  z-index: 2;
+  left: 1%;
+  bottom: 5%;
+  width: 200px;
+  cursor: grab;
+  
+}
+
+#questionairewindow {
+  position: fixed;
+  z-index: 2;
+  right: 30px;
+  bottom:70%;
+  width: 200px;
+  cursor: grab;
+}
+
+.modal {
+  background: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 15px -5px rgba(0,0,0,.5);
+}
+
+.modal .header {
+  padding: 8px 12px;
+  position: relative;
+}
+
+#candidatewindow .header{
+  background-color:#0000FF;
+  height: 20px;
+}
+
+#questionairewindow .header{
+  background-color:#F50303;
+  height: 20px;
+}
+
+.modal .header .buttons {
+  position: absolute;
+  right: 0;
+  top: 9px;
+}
+
+.modal .header .buttons span {
+  border-left: 1px solid #ccc;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+
+.modal .header .buttons span:hover {
+  background: #eee;
+}
+
+.modal .content {
+  border-top: 1px solid #ccc;
+  padding: 10px;
+}
+
+div.tooltip {	
+    position: absolute;			
+    text-align: center;			
+    width: 140px;					
+    height: auto;					
+    padding: 2px;				
+    font: 12px sans-serif;
+	font-weight: bold;
+    background: lightsteelblue;	
+    border: 0px;		
+    border-radius: 8px;			
+    pointer-events: none;
+	z-index: 2;
+}
+
+#minimap {
+    position: absolute;
+    top: 10px;
+    right: 40px;
+    cursor: grab;
+}
+
+#minimap:active .slider-rect {
+    opacity: 0.05;
+    cursor: move;
+}
+
+.slider-rect {
+    fill: #000;
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+#container {
+    position: relative;
+}
+
+#minimapwindow {
+  position: fixed;
+  z-index: 2;
+  left: 50%;
+  bottom: 10%;
+  width: 250px;
+  cursor: grab;
+}
+
+#minimapwindow .header{
+  background-color:#F503DF;
+  height: 20px;
+}

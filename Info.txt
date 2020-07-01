@@ -1,0 +1,276 @@
+waynemessam
+ST: 2019-04-16 20:23:05 ,SCount: 5834
+ET: 2020-02-28 18:14:38 ,ECount: 8409
+Increase: 2575 , %Increase: 44.14
+joebiden
+ST: 2019-01-01 19:23:12 ,SCount: 3175558
+ET: 2020-04-17 17:10:22 ,ECount: 4984543
+Increase: 1810786 , %Increase: 57.05
+joebiden
+ST: 2019-01-01 19:23:12 ,SCount: 3175558
+ET: 2020-04-17 17:10:22 ,ECount: 4984543
+Increase: 1810786 , %Increase: 57.05
+andrewyang
+ST: 2019-03-21 19:18:42 ,SCount: 189237
+ET: 2020-04-15 23:15:59 ,ECount: 1399233
+Increase: 1214916 , %Increase: 659.14
+marwilliamson
+ST: 2019-03-05 07:23:39 ,SCount: 2602291
+ET: 2020-03-30 03:33:41 ,ECount: 2787174
+Increase: 187781 , %Increase: 7.22
+ewarren
+ST: 2019-01-03 23:53:20 ,SCount: 2172769
+ET: 2020-04-18 01:53:50 ,ECount: 4102485
+Increase: 1946366 , %Increase: 90.27
+ericswalwell
+ST: 2019-01-01 14:27:43 ,SCount: 23873
+ET: 2020-04-11 10:03:55 ,ECount: 208163
+Increase: 184297 , %Increase: 772.22
+timryan
+ST: 2019-04-07 06:14:57 ,SCount: 17228
+ET: 2020-03-25 01:22:33 ,ECount: 38794
+Increase: 22748 , %Increase: 141.77
+betoorourke
+ST: 2019-01-01 15:14:31 ,SCount: 1111690
+ET: 2020-04-13 08:32:17 ,ECount: 1653745
+Increase: 543128 , %Increase: 48.9
+amyklobuchar
+ST: 2019-01-16 15:34:38 ,SCount: 557358
+ET: 2020-04-15 01:01:24 ,ECount: 1037407
+Increase: 487353 , %Increase: 88.6
+jayinslee
+ST: 2019-03-02 02:25:33 ,SCount: 30614
+ET: 2020-04-08 18:47:59 ,ECount: 156606
+Increase: 132741 , %Increase: 556.22
+hickenlooper
+ST: 2019-03-13 00:39:09 ,SCount: 135774
+ET: 2020-04-11 21:25:45 ,ECount: 172360
+Increase: 43724 , %Increase: 33.99
+sengillibrand
+ST: 2019-01-02 06:46:13 ,SCount: 1297306
+ET: 2020-04-13 08:31:48 ,ECount: 1511166
+Increase: 214461 , %Increase: 16.54
+tulsigabbard
+ST: 2019-01-02 22:08:35 ,SCount: 216704
+ET: 2020-04-09 23:03:14 ,ECount: 815791
+Increase: 599139 , %Increase: 276.54
+johndelaney
+ST: 2019-04-16 23:14:26 ,SCount: 19201
+ET: 2020-02-29 10:20:59 ,ECount: 38718
+Increase: 23562 , %Increase: 155.46
+billdeblasio
+ST: 2019-08-25 05:45:09 ,SCount: 168174
+ET: 2020-02-27 15:35:36 ,ECount: 181675
+Increase: 13532 , %Increase: 8.05
+waynemessam
+ST: 2019-04-16 20:23:05 ,SCount: 5834
+ET: 2020-02-28 18:14:38 ,ECount: 8409
+Increase: 2575 , %Increase: 44.14
+joebiden
+ST: 2019-01-01 19:23:12 ,SCount: 3175558
+ET: 2020-04-17 17:10:22 ,ECount: 4984543
+Increase: 1810786 , %Increase: 57.05
+andrewyang
+ST: 2019-03-21 19:18:42 ,SCount: 189237
+ET: 2020-04-15 23:15:59 ,ECount: 1399233
+Increase: 1214916 , %Increase: 659.14
+marwilliamson
+ST: 2019-03-05 07:23:39 ,SCount: 2602291
+ET: 2020-03-30 03:33:41 ,ECount: 2787174
+Increase: 187781 , %Increase: 7.22
+ewarren
+ST: 2019-01-03 23:53:20 ,SCount: 2172769
+ET: 2020-04-18 01:53:50 ,ECount: 4102485
+Increase: 1946366 , %Increase: 90.27
+ericswalwell
+ST: 2019-01-01 14:27:43 ,SCount: 23873
+ET: 2020-04-11 10:03:55 ,ECount: 208163
+Increase: 184297 , %Increase: 772.22
+timryan
+ST: 2019-04-07 06:14:57 ,SCount: 17228
+ET: 2020-03-25 01:22:33 ,ECount: 38794
+Increase: 22748 , %Increase: 141.77
+betoorourke
+ST: 2019-01-01 15:14:31 ,SCount: 1111690
+ET: 2020-04-13 08:32:17 ,ECount: 1653745
+Increase: 543128 , %Increase: 48.9
+amyklobuchar
+ST: 2019-01-16 15:34:38 ,SCount: 557358
+ET: 2020-04-15 01:01:24 ,ECount: 1037407
+Increase: 487353 , %Increase: 88.6
+jayinslee
+ST: 2019-03-02 02:25:33 ,SCount: 30614
+ET: 2020-04-08 18:47:59 ,ECount: 156606
+Increase: 132741 , %Increase: 556.22
+hickenlooper
+ST: 2019-03-13 00:39:09 ,SCount: 135774
+ET: 2020-04-11 21:25:45 ,ECount: 172360
+Increase: 43724 , %Increase: 33.99
+sengillibrand
+ST: 2019-01-02 06:46:13 ,SCount: 1297306
+ET: 2020-04-13 08:31:48 ,ECount: 1511166
+Increase: 214461 , %Increase: 16.54
+tulsigabbard
+ST: 2019-01-02 22:08:35 ,SCount: 216704
+ET: 2020-04-09 23:03:14 ,ECount: 815791
+Increase: 599139 , %Increase: 276.54
+johndelaney
+ST: 2019-04-16 23:14:26 ,SCount: 19201
+ET: 2020-02-29 10:20:59 ,ECount: 38718
+Increase: 23562 , %Increase: 155.46
+billdeblasio
+ST: 2019-01-10 04:17:44 ,SCount: 139293
+ET: 2020-03-30 11:58:45 ,ECount: 214138
+Increase: 75131 , %Increase: 54.05
+juliancastro
+ST: 2019-01-02 03:40:56 ,SCount: 136275
+ET: 2020-03-28 11:02:36 ,ECount: 480559
+Increase: 344398 , %Increase: 252.93
+petebuttigieg
+ST: 2019-01-24 00:15:05 ,SCount: 94963
+ET: 2020-04-17 01:42:25 ,ECount: 1848503
+Increase: 1766182 , %Increase: 2145.48
+corybooker
+ST: 2019-01-03 08:04:20 ,SCount: 4083584
+ET: 2020-04-07 01:59:45 ,ECount: 4481248
+Increase: 397732 , %Increase: 9.74
+michaelbennet
+ST: 2019-05-15 09:37:06 ,SCount: 21126
+ET: 2020-03-02 22:36:09 ,ECount: 46503
+Increase: 38042 , %Increase: 449.62
+sethmoulton
+ST: 2019-02-06 14:04:38 ,SCount: 135481
+ET: 2020-04-14 13:23:20 ,ECount: 148122
+Increase: 12555 , %Increase: 9.26
+mikegravel
+ST: 2019-03-21 01:23:19 ,SCount: 21550
+ET: 2019-11-06 08:22:22 ,ECount: 135143
+Increase: 121406 , %Increase: 883.79
+waynemessam
+ST: 2019-04-16 20:23:05 ,SCount: 5834
+ET: 2020-02-28 18:14:38 ,ECount: 8409
+Increase: 2575 , %Increase: 44.14
+joebiden
+ST: 2019-01-01 19:23:12 ,SCount: 3175558
+ET: 2020-04-17 17:10:22 ,ECount: 4984543
+Increase: 1810786 , %Increase: 57.05
+andrewyang
+ST: 2019-03-21 19:18:42 ,SCount: 189237
+ET: 2020-04-15 23:15:59 ,ECount: 1399233
+Increase: 1214916 , %Increase: 659.14
+marwilliamson
+ST: 2019-03-05 07:23:39 ,SCount: 2602291
+ET: 2020-03-30 03:33:41 ,ECount: 2787174
+Increase: 187781 , %Increase: 7.22
+ewarren
+ST: 2019-01-03 23:53:20 ,SCount: 2172769
+ET: 2020-04-18 01:53:50 ,ECount: 4102485
+Increase: 1946366 , %Increase: 90.27
+ericswalwell
+ST: 2019-01-01 14:27:43 ,SCount: 23873
+ET: 2020-04-11 10:03:55 ,ECount: 208163
+Increase: 184297 , %Increase: 772.22
+timryan
+ST: 2019-04-07 06:14:57 ,SCount: 17228
+ET: 2020-03-25 01:22:33 ,ECount: 38794
+Increase: 22748 , %Increase: 141.77
+betoorourke
+ST: 2019-01-01 15:14:31 ,SCount: 1111690
+ET: 2020-04-13 08:32:17 ,ECount: 1653745
+Increase: 543128 , %Increase: 48.9
+amyklobuchar
+ST: 2019-01-16 15:34:38 ,SCount: 557358
+ET: 2020-04-15 01:01:24 ,ECount: 1037407
+Increase: 487353 , %Increase: 88.6
+jayinslee
+ST: 2019-03-02 02:25:33 ,SCount: 30614
+ET: 2020-04-08 18:47:59 ,ECount: 156606
+Increase: 132741 , %Increase: 556.22
+hickenlooper
+ST: 2019-03-13 00:39:09 ,SCount: 135774
+ET: 2020-04-11 21:25:45 ,ECount: 172360
+Increase: 43724 , %Increase: 33.99
+sengillibrand
+ST: 2019-01-02 06:46:13 ,SCount: 1297306
+ET: 2020-04-13 08:31:48 ,ECount: 1511166
+Increase: 214461 , %Increase: 16.54
+tulsigabbard
+ST: 2019-01-02 22:08:35 ,SCount: 216704
+ET: 2020-04-09 23:03:14 ,ECount: 815791
+Increase: 599139 , %Increase: 276.54
+johndelaney
+ST: 2019-04-16 23:14:26 ,SCount: 19201
+ET: 2020-02-29 10:20:59 ,ECount: 38718
+Increase: 23562 , %Increase: 155.46
+billdeblasio
+ST: 2019-01-10 04:17:44 ,SCount: 139293
+ET: 2020-03-30 11:58:45 ,ECount: 214138
+Increase: 75131 , %Increase: 54.05
+juliancastro
+ST: 2019-01-02 03:40:56 ,SCount: 136275
+ET: 2020-03-28 11:02:36 ,ECount: 480559
+Increase: 344398 , %Increase: 252.93
+petebuttigieg
+ST: 2019-01-24 00:15:05 ,SCount: 94963
+ET: 2020-04-17 01:42:25 ,ECount: 1848503
+Increase: 1766182 , %Increase: 2145.48
+corybooker
+ST: 2019-01-03 08:04:20 ,SCount: 4083584
+ET: 2020-04-07 01:59:45 ,ECount: 4481248
+Increase: 397732 , %Increase: 9.74
+michaelbennet
+ST: 2019-05-15 09:37:06 ,SCount: 21126
+ET: 2020-03-02 22:36:09 ,ECount: 46503
+Increase: 38042 , %Increase: 449.62
+sethmoulton
+ST: 2019-02-06 14:04:38 ,SCount: 135481
+ET: 2020-04-14 13:23:20 ,ECount: 148122
+Increase: 12555 , %Increase: 9.26
+mikegravel
+ST: 2019-03-20 23:27:54 ,SCount: 20217
+ET: 2019-11-15 07:31:59 ,ECount: 136689
+Increase: 122952 , %Increase: 895.04
+tomsteyer
+ST: 2019-01-01 14:26:55 ,SCount: 211202
+ET: 2020-03-25 01:22:33 ,ECount: 317552
+Increase: 106358 , %Increase: 50.36
+waynemessam
+ST: 2019-04-16 20:23:05 ,SCount: 5834
+ET: 2020-02-28 18:14:38 ,ECount: 8409
+Increase: 2575 , %Increase: 44.14
+governorbullock
+ST: 2019-02-01 18:30:55 ,SCount: 166137
+ET: 2020-03-31 09:46:17 ,ECount: 192162
+Increase: 26453 , %Increase: 15.96
+joebiden
+ST: 2019-01-01 19:23:12 ,SCount: 3175558
+ET: 2020-04-17 17:10:22 ,ECount: 4984543
+Increase: 1810786 , %Increase: 57.05
+andrewyang
+ST: 2019-03-21 19:18:42 ,SCount: 189237
+ET: 2020-04-15 23:15:59 ,ECount: 1399233
+Increase: 1214916 , %Increase: 659.14
+marwilliamson
+ST: 2019-03-05 07:23:39 ,SCount: 2602291
+ET: 2020-03-30 03:33:41 ,ECount: 2787174
+Increase: 187781 , %Increase: 7.22
+ewarren
+ST: 2019-01-03 23:53:20 ,SCount: 2172769
+ET: 2020-04-18 01:53:50 ,ECount: 4102485
+Increase: 1946366 , %Increase: 90.27
+ericswalwell
+ST: 2019-01-01 14:27:43 ,SCount: 23873
+ET: 2020-04-11 10:03:55 ,ECount: 208163
+Increase: 184297 , %Increase: 772.22
+timryan
+ST: 2019-04-07 06:14:57 ,SCount: 17228
+ET: 2020-03-25 01:22:33 ,ECount: 38794
+Increase: 22748 , %Increase: 141.77
+amyklobuchar
+ST: 2019-01-16 15:34:38 ,SCount: 557358
+ET: 2020-04-15 01:01:24 ,ECount: 1037407
+Increase: 487353 , %Increase: 88.6
+jayinslee
+ST: 2019-03-02 02:25:33 ,SCount: 30614
+ET: 2020-04-08 18:47:59 ,ECount: 156606
+Increase: 132741 , %Increase: 556.22
