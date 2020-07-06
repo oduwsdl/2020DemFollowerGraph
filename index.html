@@ -1,44 +1,41 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Tweet Id vs Timestamp</title>
-		<meta name="description" content="2020 Democratic Candidates Follower Graph">
-		<meta name="keywords" content="Twitter, Web Archiving, Tweet Ids">
+		<title>Twitter Follower Graph</title>
+		<meta name="description" content="2020 Democratic Candidates Twitter Followers">
+		<meta name="keywords" content="Twitter, Web Archiving, Tweet Id, Democratic Candidates, 2020 Elections, Follower Count">
 		<meta name="author" content="Mohammed Nauman Siddique">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <script type = "text/javascript" src = "https://d3js.org/d3.v4.min.js"></script>
+		<script src="//d3js.org/d3-scale-chromatic.v0.3.min.js"></script>
 	</head>
 
 	<body>
-		<h1>2020 Democratic Candidates Follower Graph</h1>
-		<div id="floatingaxis"></div>
-			<div id="candidatewindow" class="modal">
-				<div id="candidateheader" class="header">
-					<span class="buttons">
-						<span id="candidatemin">_</span>
-						<span id="candidatemax">[ ]</span>
-						<span id="candidateclose">X</span>
-					</span>
-				</div>
-				<div id= "candidatecontent" class="content">>
-					Here's modal pop-up content
+		<div id="container">
+			<div id="contentContainer">
+				<div id="titleContainer">
+					<h1>2020 Democratic Candidates Twitter Followers</h1>
+					
+				</div> 
+				<div id="graphContainer">
+					<div id="followergraph"></div>
+					<div id="floatingaxis"></div>
 				</div>
 			</div>
-
-		<div id="questionairewindow" class="modal">
-			<div class="header">
-				<span class="buttons">
-					<span id="questionairemin">_</span>
-					<span id="questionairemax">[ ]</span>
-					<span id="questionaireclose">X</span>
-				</span>
+			<div id="widgetContainer">
+				<div id="minimapContainer">
+					<div id="minimap"></div>
+				</div>
+				<div id="candidatewindow"></div>
+				<div id ="questionairewindow"></div>
 			</div>
-			<div id= "questionairecontent" class="content">
-			</div>
-		</div>
-		<div id="followergraph"></div>
-        <script type = "text/javascript" src = "followergraph.js"></script>
+        </div>
+		<footer>
+		    <a href="https://github.com/oduwsdl/2020DemFollowerGraph">Twitter Follower Graph</a> by <a href="https://twitter.com/WebSciDL">Web Science and Digital Libraries Research Group</a>, <a href="https://odu.edu/compsci">Department of Computer Science</a>, <a href="https://odu.edu/">Old Dominion University</a>, Norfolk VA - 23529</footer>
+		</footer>
+		<script type = "text/javascript" src = "followergraph.js"></script>
    </body>
 </html>

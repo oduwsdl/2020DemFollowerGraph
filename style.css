@@ -1,5 +1,38 @@
+#container{
+  width:100%;
+  height: 97%;
+}
+
+#contentContainer{
+  position:absolute; 
+  width:80%;	
+}
+
+#titleContainer{
+  height: 100px;
+  width: 100%;
+}
+
 h1 {
-	text-align: center;
+  text-align: center;
+}
+
+#widgetContainer{
+  position: absolute; 
+  right: 10px; 
+  width: 18%; 
+  height: 98%;	
+}
+
+#minimapContainer{
+  border-style: solid; 
+  height:40%;"	
+}
+
+#followergraph{
+  height: 500px; 
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .fakelink{
@@ -7,92 +40,52 @@ h1 {
 }
 
 #floatingaxis {
-  position:sticky;
-  top:0%;
-  z-index:1;
+  position:absolute; 
+  top:547px;
 }
 
 #candidatewindow {
-  position: fixed;
-  z-index: 2;
-  left: 1%;
-  bottom: 5%;
-  width: 200px;
-  cursor: grab;
-  
+  margin-top:5px; 
+  border-style: solid; 
+  height:37%; 
+  font-size:14px; 
+  position:absolute; 
+  top: 42%; 
+  width: 98%;
+  overflow-y: scroll; 
 }
 
 #questionairewindow {
-  position: fixed;
-  z-index: 2;
-  right: 30px;
-  bottom:70%;
-  width: 200px;
-  cursor: grab;
-}
-
-.modal {
-  background: #fff;
-  border: 1px solid #ccc;
-  box-shadow: 0 0 15px -5px rgba(0,0,0,.5);
-}
-
-.modal .header {
-  padding: 8px 12px;
-  position: relative;
-}
-
-#candidatewindow .header{
-  background-color:#0000FF;
-  height: 20px;
-}
-
-#questionairewindow .header{
-  background-color:#F50303;
-  height: 20px;
-}
-
-.modal .header .buttons {
-  position: absolute;
-  right: 0;
-  top: 9px;
-}
-
-.modal .header .buttons span {
-  border-left: 1px solid #ccc;
-  padding: 8px 20px;
-  cursor: pointer;
-}
-
-.modal .header .buttons span:hover {
-  background: #eee;
-}
-
-.modal .content {
-  border-top: 1px solid #ccc;
-  padding: 10px;
+  position:absolute; 
+  margin-top:5px; 
+  border-style: solid; 
+  height:12%;
+  width: 98%;
+  float:left;
+  top: 82%;
 }
 
 div.tooltip {	
-    position: absolute;			
-    text-align: center;			
-    width: 140px;					
-    height: auto;					
-    padding: 2px;				
-    font: 12px sans-serif;
-	font-weight: bold;
-    background: lightsteelblue;	
-    border: 0px;		
-    border-radius: 8px;			
-    pointer-events: none;
-	z-index: 2;
+  position: absolute;			
+  text-align: center;			
+  width: 140px;					
+  height: auto;					
+  padding: 2px;				
+  font: 12px times;
+  font-weight: bold;
+  background: lightsteelblue;	
+  border: 0px;		
+  border-radius: 8px;			
+  pointer-events: none;
+  z-index: 2;
 }
 
 #minimap {
-    position: absolute;
-    top: 10px;
-    right: 40px;
-    cursor: grab;
+  cursor: grab;
+  float:left; 
+  width:60%; 
+  padding-left:20px; 
+  height:85%;
 }
 
 #minimap:active .slider-rect {
@@ -106,20 +99,18 @@ div.tooltip {
     cursor: pointer;
 }
 
-#container {
-    position: relative;
+footer {
+	position: fixed;
+	bottom: 0;
+	background-color: #2d3436;
+	color: #dfe6e9;
+	text-align: center;
+	font-size: 12px;
+	width: 99%;
+	padding: 5px;
+	box-sizing: border-box;
 }
 
-#minimapwindow {
-  position: fixed;
-  z-index: 2;
-  left: 50%;
-  bottom: 10%;
-  width: 250px;
-  cursor: grab;
-}
-
-#minimapwindow .header{
-  background-color:#F503DF;
-  height: 20px;
+footer a {
+  color: #dfe6e9;
 }
