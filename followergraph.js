@@ -16,10 +16,12 @@ var dataset = [];
 var dataNest;
 var minimapHeight = document.getElementById("minimap").offsetHeight;
 var minimapWidth = document.getElementById("minimap").offsetWidth;
-var margin = {top: 20, right: 20, bottom: 70, left: 70};
-var minimapMargin =  {top: 20, right: 10, bottom: 20, left: 30};
+var minimapMargin = {top: (20/220) * minimapHeight, right: (10/164) * minimapWidth, bottom: (20/220) * minimapHeight, left: (30/164) * minimapWidth};
+var margin =  {top: (20/500) * document.getElementById("graphContainer").offsetHeight , right: (20/ 1093) * document.getElementById("graphContainer").offsetWidth, 
+bottom: (70/500) * document.getElementById("graphContainer").offsetHeight, left: (70/1093) * document.getElementById("graphContainer").offsetWidth};
 var width = document.getElementById("graphContainer").offsetWidth  - margin.left - margin.right;
 var height = 24000 - margin.top - margin.bottom;
+console.log(document.getElementById("graphContainer").offsetWidth + "  " + document.getElementById("graphContainer").offsetHeight);
 var yScale;
 var xScale;
 var candidateList;
@@ -269,6 +271,8 @@ function createQuestionaireMenu(id){
 					for(let i=0; i< selectAllLines.length; i++){
 						if(selectAllLines[i].style.opacity == 1)
 							d3.select(selectAllLines[i]).style("opacity", 0.2);
+							d3.select(selectAllLines[i]).style("stroke-width", 1.5);
+							d3.select(selectAllLines[i]).style("stroke-dasharray", "0");
 					}
 					let selectAllLabels = $('.label');
 					for(let i=0; i< selectAllLabels.length; i++){
@@ -330,6 +334,8 @@ function createQuestionaireMenu(id){
 					for(let i=0; i< selectAllLines.length; i++){
 						if(selectAllLines[i].style.opacity == 0.2)
 							d3.select(selectAllLines[i]).style("opacity", 1);
+							d3.select(selectAllLines[i]).style("stroke-width", 1.5);
+							d3.select(selectAllLines[i]).style("stroke-dasharray", "0");
 					}
 					let selectAllLabels = $('.label');
 					for(let i=0; i< selectAllLabels.length; i++){
@@ -403,11 +409,14 @@ function createQuestionaireMenu(id){
 					for(let i=0; i< selectAllLines.length; i++){
 						if(selectAllLines[i].style.opacity == 1)
 							d3.select(selectAllLines[i]).style("opacity", 0.2);
+							d3.select(selectAllLines[i]).style("stroke-width", 1.5);
+							d3.select(selectAllLines[i]).style("stroke-dasharray", "0");
 					}
 					let selectAllLabels = $('.label');
 					for(let i=0; i< selectAllLabels.length; i++){
 						if(selectAllLabels[i].style.opacity == 1)
 							d3.select(selectAllLabels[i]).style("opacity", 0.2);
+							d3.select(selectAllLabels[i]).style("font-weight", "normal");
 					}
 					let selectAllDots = $('.dot');
 					for(let i=0; i< selectAllDots.length; i++){
@@ -450,6 +459,8 @@ function createQuestionaireMenu(id){
 					for(let i=0; i< selectAllLines.length; i++){
 						if(selectAllLines[i].style.opacity == 0.2)
 							d3.select(selectAllLines[i]).style("opacity", 1);
+							d3.select(selectAllLines[i]).style("stroke-width", 1.5);
+							d3.select(selectAllLines[i]).style("stroke-dasharray", "0");
 					}
 					let selectWithdrawal = $('.wcircle');
 					for(let i=0; i< selectWithdrawal.length; i++){
@@ -465,6 +476,7 @@ function createQuestionaireMenu(id){
 					for(let i=0; i< selectAllLabels.length; i++){
 						if(selectAllLabels[i].style.opacity == 0.2)
 							d3.select(selectAllLabels[i]).style("opacity", 1);
+							d3.select(selectAllLabels[i]).style("font-weight", "normal");
 					}
 					let selectAllDots = $('.dot');
 					for(let i=0; i< selectAllDots.length; i++){
@@ -564,11 +576,14 @@ function createQuestionaireMenu(id){
 					for(let i=0; i< selectAllLines.length; i++){
 						if(selectAllLines[i].style.opacity == 0.2)
 							d3.select(selectAllLines[i]).style("opacity", 1);
+							d3.select(selectAllLines[i]).style("stroke-width", 1.5);
+							d3.select(selectAllLines[i]).style("stroke-dasharray", "0");
 					}
 					let selectAllLabels = $('.label');
 					for(let i=0; i< selectAllLabels.length; i++){
 						if(selectAllLabels[i].style.opacity == 0.2)
 							d3.select(selectAllLabels[i]).style("opacity", 1);
+							d3.select(selectAllLabels[i]).style("font-weight", "normal");
 					}
 					let selectAllDots = $('.dot');
 					for(let i=0; i< selectAllDots.length; i++){
@@ -671,6 +686,7 @@ function createQuestionaireMenu(id){
 					for(let i=0; i< selectAllLabels.length; i++){
 						if(selectAllLabels[i].style.opacity == 0.2)
 							d3.select(selectAllLabels[i]).style("opacity", 1);
+							d3.select(selectAllLabels[i]).style("font-weight", "normal");
 					}
 					let selectAllDots = $('.dot');
 					for(let i=0; i< selectAllDots.length; i++){
@@ -803,7 +819,6 @@ function createQuestionaireFloatingWindow(){
 
 /*Function to create top X-axis*/
 function createFloatingAxis(){
-	var margin = {top: 120, right: 130, bottom: 56.3, left: 70};
 	var height = 60;
 	var svg = d3.select("#floatingaxis").append("svg")
 				.attr("width", width)
@@ -811,7 +826,9 @@ function createFloatingAxis(){
 				.attr("id", "floataxissvg")
 				.attr("background-color", "white")
 				.attr("transform", "translate(" + 0 + "," + 0 + ")");
-				
+	console.log(document.getElementById("floatingaxis").offsetWidth + "  " + document.getElementById("floatingaxis").offsetHeight);
+	var margin = {top: (120/64)* document.getElementById("floatingaxis").offsetHeight, right: (130/1003) * document.getElementById("floatingaxis").offsetWidth, bottom: (56.3/64) * document.getElementById("floatingaxis").offsetHeight, left: (70/ 1003) * document.getElementById("floatingaxis").offsetWidth};
+		
 	var xScale = d3.scaleTime()
 				.domain([new Date("2019-01-01 00:00:00"), new Date("2020-04-18 23:59:59")])
 				.range([ 0, width - margin.right])
