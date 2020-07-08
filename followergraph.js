@@ -271,8 +271,6 @@ function createQuestionaireMenu(id){
 					for(let i=0; i< selectAllLines.length; i++){
 						if(selectAllLines[i].style.opacity == 1)
 							d3.select(selectAllLines[i]).style("opacity", 0.2);
-							d3.select(selectAllLines[i]).style("stroke-width", 1.5);
-							d3.select(selectAllLines[i]).style("stroke-dasharray", "0");
 					}
 					let selectAllLabels = $('.label');
 					for(let i=0; i< selectAllLabels.length; i++){
@@ -332,15 +330,18 @@ function createQuestionaireMenu(id){
 					}
 					let selectAllLines = $('.line');
 					for(let i=0; i< selectAllLines.length; i++){
-						if(selectAllLines[i].style.opacity == 0.2)
+						if(selectAllLines[i].style.opacity == 0.2){
 							d3.select(selectAllLines[i]).style("opacity", 1);
 							d3.select(selectAllLines[i]).style("stroke-width", 1.5);
-							d3.select(selectAllLines[i]).style("stroke-dasharray", "0");
+							d3.select(selectAllLines[i]).style("stroke-dasharray", "0");							
+						}
 					}
 					let selectAllLabels = $('.label');
 					for(let i=0; i< selectAllLabels.length; i++){
-						if(selectAllLabels[i].style.opacity == 0.2)
+						if(selectAllLabels[i].style.opacity == 0.2){
 							d3.select(selectAllLabels[i]).style("opacity", 1);
+							d3.select(selectAllLabels[i]).style("font-weigtht", "normal");
+						}
 					}
 					let selectAllDots = $('.dot');
 					for(let i=0; i< selectAllDots.length; i++){
@@ -407,16 +408,16 @@ function createQuestionaireMenu(id){
 					}
 					let selectAllLines = $('.line');
 					for(let i=0; i< selectAllLines.length; i++){
-						if(selectAllLines[i].style.opacity == 1)
+						if(selectAllLines[i].style.opacity == 1){
 							d3.select(selectAllLines[i]).style("opacity", 0.2);
-							d3.select(selectAllLines[i]).style("stroke-width", 1.5);
-							d3.select(selectAllLines[i]).style("stroke-dasharray", "0");
+	
+						}
 					}
 					let selectAllLabels = $('.label');
 					for(let i=0; i< selectAllLabels.length; i++){
-						if(selectAllLabels[i].style.opacity == 1)
+						if(selectAllLabels[i].style.opacity == 1){
 							d3.select(selectAllLabels[i]).style("opacity", 0.2);
-							d3.select(selectAllLabels[i]).style("font-weight", "normal");
+						}
 					}
 					let selectAllDots = $('.dot');
 					for(let i=0; i< selectAllDots.length; i++){
@@ -457,10 +458,11 @@ function createQuestionaireMenu(id){
 											.attr('r', 4);
 					let selectAllLines = $('.line');
 					for(let i=0; i< selectAllLines.length; i++){
-						if(selectAllLines[i].style.opacity == 0.2)
+						if(selectAllLines[i].style.opacity == 0.2){
 							d3.select(selectAllLines[i]).style("opacity", 1);
 							d3.select(selectAllLines[i]).style("stroke-width", 1.5);
-							d3.select(selectAllLines[i]).style("stroke-dasharray", "0");
+							d3.select(selectAllLines[i]).style("stroke-dasharray", "0");							
+						}
 					}
 					let selectWithdrawal = $('.wcircle');
 					for(let i=0; i< selectWithdrawal.length; i++){
@@ -474,9 +476,11 @@ function createQuestionaireMenu(id){
 					}
 					let selectAllLabels = $('.label');
 					for(let i=0; i< selectAllLabels.length; i++){
-						if(selectAllLabels[i].style.opacity == 0.2)
+						if(selectAllLabels[i].style.opacity == 0.2){
 							d3.select(selectAllLabels[i]).style("opacity", 1);
 							d3.select(selectAllLabels[i]).style("font-weight", "normal");
+						}
+
 					}
 					let selectAllDots = $('.dot');
 					for(let i=0; i< selectAllDots.length; i++){
@@ -574,10 +578,11 @@ function createQuestionaireMenu(id){
 					}
 					let selectAllLines = $('.line');
 					for(let i=0; i< selectAllLines.length; i++){
-						if(selectAllLines[i].style.opacity == 0.2)
+						if(selectAllLines[i].style.opacity == 0.2){
 							d3.select(selectAllLines[i]).style("opacity", 1);
 							d3.select(selectAllLines[i]).style("stroke-width", 1.5);
-							d3.select(selectAllLines[i]).style("stroke-dasharray", "0");
+							d3.select(selectAllLines[i]).style("stroke-dasharray", "0");							
+						}
 					}
 					let selectAllLabels = $('.label');
 					for(let i=0; i< selectAllLabels.length; i++){
@@ -681,12 +686,15 @@ function createQuestionaireMenu(id){
 					for(let i=0; i< selectAllLines.length; i++){
 						if(selectAllLines[i].style.opacity == 0.2)
 							d3.select(selectAllLines[i]).style("opacity", 1);
+							d3.select(selectAllLines[i]).style("stroke-width", 1.5);
+							d3.select(selectAllLines[i]).style("stroke-dasharray", "0");
 					}
 					let selectAllLabels = $('.label');
 					for(let i=0; i< selectAllLabels.length; i++){
-						if(selectAllLabels[i].style.opacity == 0.2)
+						if(selectAllLabels[i].style.opacity == 0.2){
 							d3.select(selectAllLabels[i]).style("opacity", 1);
-							d3.select(selectAllLabels[i]).style("font-weight", "normal");
+							d3.select(selectAllLabels[i]).style("font-weight", "normal");							
+						}
 					}
 					let selectAllDots = $('.dot');
 					for(let i=0; i< selectAllDots.length; i++){
