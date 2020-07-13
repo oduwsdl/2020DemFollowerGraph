@@ -21,7 +21,6 @@ var margin =  {top: (20/500) * document.getElementById("graphContainer").offsetH
 bottom: (70/500) * document.getElementById("graphContainer").offsetHeight, left: (70/1093) * document.getElementById("graphContainer").offsetWidth};
 var width = document.getElementById("graphContainer").offsetWidth  - margin.left - margin.right;
 var height = 24000 - margin.top - margin.bottom;
-console.log(document.getElementById("graphContainer").offsetWidth + "  " + document.getElementById("graphContainer").offsetHeight);
 var yScale;
 var xScale;
 var candidateList;
@@ -820,7 +819,6 @@ function createQuestionaireFloatingWindow(){
 	var span = 
 		elmnt.innerHTML +=  '<input type="checkbox" id="debate" name="debate" value="debate" onclick="createQuestionaireMenu(\'' + 1 + '\')"> </input> <label id="debate">Debate</label>'+ '<br/>';
 		elmnt.innerHTML +=  '<input type="checkbox" id="primary" name="primary" value="primary" onclick="createQuestionaireMenu(\'' + 2 + '\')"> </input> <label id="primary">Primary & Caucus</label>'+ '<br/>';
-		//content.innerHTML +=  '<input type="checkbox" id="caucus" name="caucus" value="caucus" onclick="createQuestionaireMenu(\'' + 3 + '\')"> </input> <label id="caucus">Caucuses</label>'+ '<br/>';
 		elmnt.innerHTML +=  '<input type="checkbox" id="campaign" name="campaign" value="campaign" onclick="createQuestionaireMenu(\'' + 4 + '\')"> </input> <label id="campaign">Campaign Announced</label>'+ '<br/>';
 		elmnt.innerHTML +=  '<input type="checkbox" id="withdrawl" name="withdrawl" value="withdrawl" onclick="createQuestionaireMenu(\'' + 5 + '\')"> </input> <label id="withdrawl">Campaign Withdrawal</label>'+ '<br/>';
 }
@@ -834,7 +832,6 @@ function createFloatingAxis(){
 				.attr("id", "floataxissvg")
 				.attr("background-color", "white")
 				.attr("transform", "translate(" + 0 + "," + 0 + ")");
-	console.log(document.getElementById("floatingaxis").offsetWidth + "  " + document.getElementById("floatingaxis").offsetHeight);
 	var margin = {top: (120/64)* document.getElementById("floatingaxis").offsetHeight, right: (130/1003) * document.getElementById("floatingaxis").offsetWidth, bottom: (56.3/64) * document.getElementById("floatingaxis").offsetHeight, left: (70/ 1003) * document.getElementById("floatingaxis").offsetWidth};
 		
 	var xScale = d3.scaleTime()
@@ -991,7 +988,7 @@ function createCandidateFloatingWindow(rankedOrderList){
 		elmnt.innerHTML += '<input type="checkbox" id=' + rankedOrderList[i].handle + ' name= ' + rankedOrderList[i].handle + ' value=' 
 								+ rankedOrderList[i].handle + ' onchange="changePlotStatus(\'' + rankedOrderList[i].handle + '\')" checked>' + '<label id=' 
 								+ rankedOrderList[i].handle + '>' + '<span class="fakelink" onclick="highlightCandidatePlot(\'' + rankedOrderList[i].handle + '\')">'+ '@' 
-								+ rankedOrderList[i].handle + '</span>' + '</label> <a style="padding-left:10px;" href = "https://github.com/oduwsdl/2020DemFollowerGraph/tree/master/Graphs/Part2/' + rankedOrderList[i].handle + '"><i class="fa fa-github"></i></a><a style="padding-left:10px;" href = "https://twitter.com/' + rankedOrderList[i].handle + '"><i class="fa fa-twitter"></i></a>' + '<br/>';
+								+ rankedOrderList[i].handle + '</span>' + '</label> <a style="padding-left:10px;" href = "https://github.com/oduwsdl/2020DemFollowerGraph/tree/master/Graphs/Part2/' + rankedOrderList[i].handle + '"><img src="favicon.ico" width= "14"; height= "12"; style=""></i></a><a style="padding-left:10px;" href = "https://twitter.com/' + rankedOrderList[i].handle + '"><i class="fa fa-twitter"></i></a>' + '<br/>';
 	}
 }
 
@@ -1304,7 +1301,13 @@ function updateFollowerChart(){
 			svg.append("text")
 				.attr("id", "label-" + d.values[0].handle)
 				.attr("class", "label")
-				.attr("transform", "translate("+(width - margin.right - margin.left - 50)+","+yScale(d.values[d.values.length - 1].FollowerCount)+")")
+				.attr("transform", function(){
+					if(d.values[0].handle == "timryan"){
+						return "translate("+(width - margin.right - margin.left - 50)+","+(yScale(d.values[d.values.length - 1].FollowerCount) + 15)+")";
+					}else{
+						return "translate("+(width - margin.right - margin.left - 50)+","+yScale(d.values[d.values.length - 1].FollowerCount)+")";
+					}
+					})
 				.attr("dy", ".5em")
 				.attr("text-anchor", "start")
 				.style("opacity", 1)
@@ -1360,7 +1363,13 @@ function updateFollowerChart(){
 			svg.select("#label-" + d.values[0].handle)
 				.transition()
 				.duration(750)
-				.attr("transform", "translate("+(width - margin.right - margin.left - 50)+","+yScale(d.values[d.values.length - 1].FollowerCount)+")");
+				.attr("transform", function(){
+					if(d.values[0].handle == "timryan"){
+						return "translate("+(width - margin.right - margin.left - 50)+","+(yScale(d.values[d.values.length - 1].FollowerCount) + 15)+")";
+					}else{
+						return "translate("+(width - margin.right - margin.left - 50)+","+yScale(d.values[d.values.length - 1].FollowerCount)+")";
+					}
+					});
 
 			dot.select("#scatter-"+d.values[0].handle).selectAll("circle")
 				.data(d.values)

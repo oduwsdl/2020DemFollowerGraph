@@ -26,7 +26,7 @@ h1 {
 
 #minimapContainer{
   border-style: solid; 
-  height:40%;"	
+  height:40%;
 }
 
 #followergraph{
@@ -63,6 +63,7 @@ h1 {
   width: 98%;
   float:left;
   top: 82%;
+  overflow-y: auto;
 }
 
 div.tooltip {	
