@@ -988,7 +988,7 @@ function createCandidateFloatingWindow(rankedOrderList){
 		elmnt.innerHTML += '<input type="checkbox" id=' + rankedOrderList[i].handle + ' name= ' + rankedOrderList[i].handle + ' value=' 
 								+ rankedOrderList[i].handle + ' onchange="changePlotStatus(\'' + rankedOrderList[i].handle + '\')" checked>' + '<label id=' 
 								+ rankedOrderList[i].handle + '>' + '<span class="fakelink" onclick="highlightCandidatePlot(\'' + rankedOrderList[i].handle + '\')">'+ '@' 
-								+ rankedOrderList[i].handle + '</span>' + '</label> <a style="padding-left:10px;" href = "https://github.com/oduwsdl/2020DemFollowerGraph/tree/master/Graphs/Part2/' + rankedOrderList[i].handle + '"><img src="favicon.ico" width= "14"; height= "12"; style=""></i></a><a style="padding-left:10px;" href = "https://twitter.com/' + rankedOrderList[i].handle + '"><i class="fa fa-twitter"></i></a>' + '<br/>';
+								+ rankedOrderList[i].handle + '</span>' + '</label> <a style="padding-left:10px;" href = "https://github.com/oduwsdl/2020DemFollowerGraph/tree/master/Graphs/Part2/' + rankedOrderList[i].handle + '">&#x1f4c8</a><a style="padding-left:10px;" href = "https://twitter.com/' + rankedOrderList[i].handle + '"><i class="fa fa-twitter"></i></a>' + '<br/>';
 	}
 }
 
