@@ -1,11 +1,15 @@
 # 2020DemFollowerGraph
 
-This repository contains Twitter follower growth graphs for 2020 Democratic Party Candidates.
+This repository contains Twitter follower growth graphs for the 2020 Democratic Party Candidates.
 
-[Link to blog Part-1](https://ws-dl.blogspot.com/2019/09/2019-09-10-twitter-follower-growth-for.html)
+[1] Mohammed Nauman Siddique. 2020. Revisiting Twitter Follower Growth for the 2020 Democratic Candidates. (July 2020). Retrieved July 16, 2020 from https://ws-dl.blogspot.com/2020/07/2020-07-15-revisiting-twitter-follower.html
+  
+[2] Mohammed Nauman Siddique. 2019. Twitter Follower Growth for the 2020 Democratic Candidates. (September 2019). Retrieved July 16, 2020 from https://ws-dl.blogspot.com/2019/09/2019-09-10-twitter-follower-growth-for.html
 
-Link to follower Graph
+## Description
 
-[https://oduwsdl.github.io/2020DemFollowerGraph/](https://oduwsdl.github.io/2020DemFollowerGraph/)
+In our post, [Twitter Follower Growth for the 2020 Democratic Candidates](https://ws-dl.blogspot.com/2019/09/2019-09-10-twitter-follower-growth-for.html), we used the Twitter follower growth between 2019-01-01 and 2019-08-23 as a proxy to measure popularity of the Democratic candidates and categorized the campaign of each candidate based on their absolute Twitter follower growth into four categories: already popular, big winners, nobody noticed, and beneficial.
 
-[https://www.cs.odu.edu/~msiddique/work/dem2020_follower_count/index.html](https://www.cs.odu.edu/~msiddique/work/dem2020_follower_count/index.html)
+In our post, [Revisiting Twitter Follower Growth for the 2020 Democratic Candidates](https://ws-dl.blogspot.com/2020/07/2020-07-15-revisiting-twitter-follower.html), we revisited the Twitter follower growth of all 27 Democratic candidates between 2019-01-01 and 2020-04-18. we created an [interactive D3 Twitter follower graph](https://oduwsdl.github.io/2020DemFollowerGraph/) for all 27 Democratic candidates, which can be used to analyze the historical Twitter follower counts and the impact of real-world events like debates, primaries, caucuses, and campaign announcement and withdrawal onto the follower count of each candidate.
+
+Interactive D3 Chart: [https://oduwsdl.github.io/2020DemFollowerGraph/](https://oduwsdl.github.io/2020DemFollowerGraph/)
