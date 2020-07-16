@@ -1,6 +1,6 @@
 # 2020DemFollowerGraph
 
-This repository contains Twitter follower growth graphs for the 2020 Democratic Party Candidates.
+This repository contains Twitter follower growth graph for all of the 2020 Democratic Presidential nomination candidates.
 
 [1] Mohammed Nauman Siddique. 2020. Revisiting Twitter Follower Growth for the 2020 Democratic Candidates. (July 2020). Retrieved July 16, 2020 from https://ws-dl.blogspot.com/2020/07/2020-07-15-revisiting-twitter-follower.html
   
